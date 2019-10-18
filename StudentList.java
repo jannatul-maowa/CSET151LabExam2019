@@ -30,8 +30,7 @@ public class StudentList
     
 			String t = args[0].substring(1);
 			Date d = new Date();
-			String df = "dd/mm/yyyy-hh:mm:ss a";
-			DateFormat dateFormat = new SimpleDateFormat(df);
+			DateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy-hh:mm:ss a");
 			String fd= dateFormat.format(d);
 			s.write(reader+", "+t+"\nList last updated on "+fd);
 			s.close();
