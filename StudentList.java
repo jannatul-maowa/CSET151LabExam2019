@@ -96,6 +96,7 @@ public class StudentList
 			
 			System.out.println("Data Loaded.");				
 		}
+		
 		else if(args[0].contains(ShowCount)) 
 		{
 			System.out.println("Loading data ...");			
@@ -108,6 +109,7 @@ public class StudentList
 			
 			System.out.println("Data Loaded.");				
 		}
+
 		else
 		{
 			System.out.println("enter right arguments");
